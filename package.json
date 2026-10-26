@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "postcss-cli": "^12.0.0",
+    "sass": "^1.106.1"
+  },
+    "scripts": {
+    "build:css": "sass --load-path=node_modules scss/custom.scss css/bootstrap-custom.css && postcss css/bootstrap-custom.css --use autoprefixer -o css/bootstrap-custom-prefixed.css"
   }
 }

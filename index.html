@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel sa Daet</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-custom-prefixed.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body id="globalfont">
+    
+    <header class="container-fluid py-3  text-center bg-secondary">
+        <p class="m-0" fw-bold">Order ahead and skip the wait. Daily bundle, every day</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!--Brand Logo and Name-->
+            <a class="navbar-brand fs-3 fw-bold" href="#">
+                <img src="image/icon.jpg" alt="Logo" width="60px" height="60px" 
+                class="d-inline-block align-text-center ms-5 me-2">Pastel sa Daet</a>
+
+            <!-- Humburger button-->
+            <button class="navbar-toggler shadow-none"
+             type="button" data-bs-toggle="offcanvas" 
+             data-bs-target="#offcanvasNavbar" 
+             aria-controls="offcanvasNavbar" 
+             aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- SideBar-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-start flex-grow-1 ps-5 ">
+                    <li class="nav-item p-2 m-2">
+                        <a class="nav-link active border-bottom border-4 border-secondary" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item p-2 m-2">
+                        <a class="nav-link" href="#">Menu & Order</a>
+                    </li>
+                    <li class="nav-item p-2 m-2">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item p-2 m-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="d-flex justify-content-center align-items-center me-5">
+                    <a href="#" class="text-black px-3 py-3 rounded-5 text-decoration-none ">Sign-in</a>
+                    <a href="#" class="bg-warning px-4 py-3 rounded-5 text-decoration-none liquidglass ">My Orders</a>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </nav>
+  
+</div>
+</body>
