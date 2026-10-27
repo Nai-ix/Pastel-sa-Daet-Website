@@ -16,65 +16,98 @@
     <link rel="stylesheet" href="css/bootstrap-custom-prefixed.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
    
 </head>
-<body id="globalfont">
-    
-    <header class="container-fluid py-3  text-center bg-secondary">
-        <p class="m-0" fw-bold">Order ahead and skip the wait. Daily bundle, every day</p>
-    </header>
+<body  id="globalfont"> <!-- Id select for font-->
+    <!--Header Announcement-->
+    <header>
+        <div class="container-fluid py-3  text-center bg-secondary">
+            <p class="m-0" fw-bold">Order ahead and skip the wait. Daily bundle, every day</p>
+        </div>
+        
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <!--Brand Logo and Name-->
-            <a class="navbar-brand fs-3 fw-bold" href="#">
-                <img src="image/icon.jpg" alt="Logo" width="60px" height="60px" 
-                class="d-inline-block align-text-center ms-5 me-2">Pastel sa Daet</a>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!--Brand Logo and Name-->
+                <a class="navbar-brand fs-3 fw-bold" href="#">
+                    <img src="image/icon.jpg" alt="Logo" width="60px" height="60px" 
+                    class="d-inline-block align-text-center ms-5 me-2">Pastel sa Daet</a>
 
-            <!-- Humburger button-->
-            <button class="navbar-toggler shadow-none"
-             type="button" data-bs-toggle="offcanvas" 
-             data-bs-target="#offcanvasNavbar" 
-             aria-controls="offcanvasNavbar" 
-             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Humburger button-->
+                <button class="navbar-toggler shadow-none"
+                type="button" data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" 
+                aria-controls="offcanvasNavbar" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!-- SideBar-->
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-start flex-grow-1 ps-5 ">
-                    <li class="nav-item p-2 m-2">
-                        <a class="nav-link active border-bottom border-4 border-secondary" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item p-2 m-2">
-                        <a class="nav-link" href="#">Menu & Order</a>
-                    </li>
-                    <li class="nav-item p-2 m-2">
-                        <a class="nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item p-2 m-2">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                <!-- SideBar-->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 
-                <div class="d-flex justify-content-center align-items-center me-5">
-                    <a href="#" class="text-black px-3 py-3 rounded-5 text-decoration-none ">Sign-in</a>
-                    <a href="#" class="bg-warning px-4 py-3 rounded-5 text-decoration-none liquidglass ">My Orders</a>
+                <!--SideBar Header-->
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!--SideBar Body-->
+                <div class="offcanvas-body">
+
+                    <!--Navigation Links-->
+                    <ul class="navbar-nav justify-content-start flex-grow-1 ps-5 ">
+                        <li class="nav-item p-2 m-2">
+                            <a class="nav-link active border-bottom border-4 border-secondary" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item p-2 m-2">
+                            <a class="nav-link" href="#">Menu & Order</a>
+                        </li>
+                        <li class="nav-item p-2 m-2">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item p-2 m-2">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!--Sign-in and My Order link-->
+                    <div class="d-flex justify-content-center align-items-center me-5">
+                        <a href="#" class="text-black px-3 py-3 rounded-5 text-decoration-none ">Sign-in</a>
+                        <a href="#" class="px-4 py-3 rounded-5 text-decoration-none liquidglass ">My Orders</a>
+                    </div>
+                </div>
+
                 </div>
             </div>
+        </nav>
+    </header>
 
-            
+    <main class="container-fluid bg-warning p-5">
+        <section class="row">
+            <div class="col-6 m-5 ">
+                <badge class=" herobadge bg-secondary rounded p-1 ">
+                    <span class="fs-4">•</span>  Pastil sa Daet · since 2023
+                </badge>
+                
+                <div class="titlebar">
+                    <h1>Pastil made fresh, ready when you are.</h1>
+                    <h5 class="text-white">Order ahead for pick-up, dine in at our shop, or get it delivered through our partner apps.</h5>
+                </div>
+
+                <div class="titlebutton mt-5">
+                    <a href="#" class="px-3 py-2 rounded-5 text-decoration-none liquidglass oabutton mx-2">Orders ahead</a>
+                    <a href="#" class="px-3 py-2 rounded-5 text-decoration-none liquidglass stmbutton ">See the menu</a>
+                </div>
+                
             </div>
-        </div>
-    </nav>
-  
-</div>
+            <div class="col-6"></div>
+        </section>
+    </main>
+
+   <!-- =========================================== -->
+
+   
 </body>
