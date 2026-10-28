@@ -6,7 +6,9 @@
   font-style: normal;
 }
 
-
+body{
+  padding:0;
+}
 .liquidglass{
   box-shadow: inset 1px 2px 8px 1px rgba(228, 210, 210, 0.99);
   background-color: #C0392D;
