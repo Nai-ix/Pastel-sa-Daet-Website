@@ -10,37 +10,52 @@ body{
   padding:0;
 }
 .liquidglass{
-  box-shadow: inset 1px 2px 8px 1px rgba(228, 210, 210, 0.99);
-  background-color: #C0392D;
+  box-shadow: inset 0px 30px 40px 0px  #F05252;
+  border: 1.2px solid white;
+  background-color: #b91c1c;
 }
 
 .liquidglass:hover{
-  box-shadow: 0 2px 8px 0 rgba(228, 210, 210, 0.99);
+  box-shadow:  0px 1px 10px 0px #F05252;
   background-color: white;
-  color: black;
+  color: #111827;
+}
+
+.liquidglass.vfmenu{
+  box-shadow: inset 0px 30px 40px 0px  #E3FBB3;
+  border:1.2px solid white;
+  background-color: #A3E635;
+  color: #111827;
+}
+
+.liquidglass.vfmenu:hover{
+  box-shadow:  0 1px 10px 0 #E3FBB3;
+  background-color: white;
+  color: #111827;
 }
 
 .oabutton{
-  box-shadow: inset 0px 4px 8px 0px rgba(228, 210, 210, 0.99);
-  background-color: #A9CB3E;
-  color: black;
+  box-shadow: inset  0px 30px 40px 0px #E3FBB3;
+  border: 1.2px solid white;
+  background-color: #A3E635;
+  color: #111827;
 }
 
 .oabutton:hover{
-  box-shadow: 0px 2px 12px 0px rgba(228, 210, 210, 0.99);
-  background-color: #C0392D;
+  box-shadow: 0px 1px 10px 0px white;
+  background-color: rgba(255, 255, 255, 0.16);
   color: white;
 }
 
 .stmbutton{
-  box-shadow: inset 0px 0px 8px 0px rgba(228, 210, 210, 0.99);
+  box-shadow: inset 0px 30px 40px 0px rgba(255, 255, 255, 0.16);
   background-color: #C0392D;
   color: white;
 }
 
 .stmbutton:hover{
-  box-shadow: 0px 0px 8px 0px rgba(228, 210, 210, 0.99);
-  background-color: #A9CB3E;
+  box-shadow: 0px 1px 10px 0px #A3E635;
+  background-color: #E3FBB3;
   color: black;
 }
 
@@ -56,3 +71,16 @@ h1{
   font-size: 14px;
   font-weight: bold;
 }
+
+a{
+  text-decoration: none;
+}
+
+.footer-link.active{
+  font-weight: bold;
+}
+
+.text-grey{
+  color:#4B5563;
+}
+
