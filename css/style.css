@@ -9,42 +9,43 @@
 body{
   padding:0;
 }
-.liquidglass{
-  box-shadow: inset 0px 30px 40px 0px  #F05252;
-  border: 1.2px solid white;
+.redbutton{
+  box-shadow: inset 0px 20px 40px 0px  #F05252;
+  border: 1.2px solid #FFFFFF;
   background-color: #b91c1c;
+  color: #FFFFFF;
 }
 
-.liquidglass:hover{
+.redbutton:hover{
   box-shadow:  0px 1px 10px 0px #F05252;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #111827;
 }
 
-.liquidglass.vfmenu{
+.greenbutton.vfmenu{
   box-shadow: inset 0px 30px 40px 0px  #FFFFFF;
   border:1.5px solid #12172680;
   background-color: #EDF5E0;
   color: #111827;
 }
 
-.liquidglass.vfmenu:hover{
+.greenbutton.vfmenu:hover{
   box-shadow:  0 1px 10px 0 #EDF5E0;
-  background-color: white;
+  background-color: #FFFFFF;
   color: #111827;
 }
 
 .greenbutton{
   box-shadow: inset  0px 15px 30px 0px #E3FBB3;
-  border: 1.2px solid white;
+  border: 1.2px solid #FFFFFF;
   background-color: #A3E635;
   color: #111827;
 }
 
 .greenbutton:hover{
-  box-shadow: 0px 1px 10px 0px white;
+  box-shadow: 0px 1px 10px 0px #FFFFFF;
   background-color: rgba(255, 255, 255, 0.16);
-  color: white;
+  color: #FFFFFF;
 }
 
 .greenbutton.add:hover{
@@ -55,8 +56,9 @@ body{
 
 .stmbutton{
   box-shadow: inset 0px 30px 40px 0px rgba(255, 255, 255, 0.16);
+  border: 1.2px solid #FFFFFF;
   background-color: #C0392D;
-  color: white;
+  color: #FFFFFF;
 }
 
 .stmbutton:hover{
@@ -69,7 +71,7 @@ body{
 h1{
   font-weight: bold;
   font-size: 68px;
-  color: white;
+  color: #FFFFFF;
 }
 
 /* Hero Badge */
