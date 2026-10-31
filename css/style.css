@@ -104,3 +104,11 @@ li{
   background-color: #F7FEE7;
 }
 
+.accordion-button::after{
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAc0lEQVR4AexS0QrAIAjc9v//vLzA8OFEIQIDQ1NUPD38nsOvAUKCy1H0y8hQMTkpt0FubFPVGxgyuOtRhEthql1YDjHNL+sBrIJdxwN4pTFTCU9hOcRm0n4egK3Z8hsgpK8cRbgUaDi5FpTbQAdL2/s3GAAAAP//etKaQQAAAAZJREFUAwCi5Q4xMXSFHwAAAABJRU5ErkJggg==");
+
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAASUlEQVR4AeySMQoAMAgD2/7/z23WTAGLZDCig6CYHJ7VHDkgAQdREEkCcsD2RRfSKoU1TpuDDR2VwhqnzQHL+OjiQMILogGIHgAAAP//pvWNpAAAAAZJREFUAwAfwQ4x4Sj9ZAAAAABJRU5ErkJggg==");
+}
